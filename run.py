@@ -37,4 +37,4 @@ for repo in g.get_user(user).get_repos():
 
 print('repo count: ' + str(repo_count))
 print('commit count: ' + str(commit_count))
-print('LOC count: ' + str(repo_count))
+print('LOC count: ' + str(loc_count))
