@@ -14,8 +14,8 @@ loc_count = 0
 user = 'wikipathways'
 
 for repo in g.get_user(user).get_repos():
-    print(str(repo_count) + ') analyzing ' + repo.name + '...')
     repo_count += 1
+    print(str(repo_count) + ') analyzing ' + repo.name + '...')
     for commit in repo.get_commits():
         commit_count += 1
 
