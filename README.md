@@ -1,6 +1,6 @@
 # github-summarizer
 
-Python library to generate SQLite database for versioned WikiPathways data releases.
+Python library to get summary github stats for a single user or organization.
 
 Get library:
 
