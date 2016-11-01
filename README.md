@@ -18,13 +18,13 @@ workon github-summarizer
 Install dependencies:
 
 ```
-pip install -e .
+pip3 install -e .
 ```
 
 Try it:
 
 ```
-python ./run.py
+python3 ./run.py
 ```
 
 ### Protip
@@ -32,6 +32,6 @@ If you ever need to install another dependency, here's an example of how to do i
 (in this case for the dependency `SQLAlchemy`):
 
 ```
-pip install SQLAlchemy
-pip freeze > requirements.txt
+pip3 install SQLAlchemy
+pip3 freeze > requirements.txt
 ```
