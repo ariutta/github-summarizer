@@ -1,6 +1,6 @@
 # github-summarizer
 
-Python library to get summary github stats for a single user or organization.
+Python library to get summary github stats for a user or organization.
 
 Get library:
 
@@ -15,16 +15,21 @@ Isolate environment (optional):
 workon github-summarizer
 ```
 
-Install dependencies:
+Install dependencies (not sure whether this is working yet -- if not, install what's in requirements.txt):
 
 ```
 pip3 install -e .
 ```
 
+View options:
+```
+githubsummarizer/github_summarizer.py --help
+```
+
 Try it:
 
 ```
-python3 ./run.py
+githubsummarizer/github_summarizer.py wikipathways --include pvjs
 ```
 
 ### Protip
